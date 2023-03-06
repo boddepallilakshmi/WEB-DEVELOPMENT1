@@ -1,0 +1,44 @@
+body{
+    background-color:#393E46	;
+    text-align: center;
+}
+h1{
+
+
+    color:#98FF98;
+    font-size: 7rem;
+}
+.container{
+    text-align:center;
+    width:80%;
+    margin:auto;
+}
+.dice{
+    display:inline-block;
+    margin-right:5%;
+    margin-left:5%;
+}
+h1{
+    margin-bottom:5%;
+    margin-top:3%;
+    font-family:'Lobster',cursive;
+    font-size:8rem;
+    text-shadow:7px 0 #232931;
+    color:#4ECCA3;
+}
+img{
+    width:80%;
+
+}
+p{
+    font-family:'Fira Sans',sans-serif;
+    color:#4ECCA3;
+    font-size:2rem;
+}
+footer{
+margin-top:5%;
+color:#EEEEEE;
+text-align : center;
+font-family:'Indie FIower',cursive;
+
+} 
