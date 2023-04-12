@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="musicpage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionmusichomepage">
+        <div class="bg-container">
+            <div class="card-container-moon-image d-flex flex-column justify-content-center">
+                <h1 class="music-home-sleep-heading">
+                    Sleep Music
+                </h1>
+                <p class="music-home-paragraph"> Soothing bedtime music to help you fall into a deep and natural sleep </p>
+            </div>
+            <div class="night-island-card">
+                <div class="bg-container-night-island">
+                    <div class="text-container-night-island card-stats">
+                        <h1> Night Island </h1>
+                    </div>
+                </div>
+                <p class="music-home-paragraph"> non-stop 8-hour mixes of our most popular sleep audio </p>
+                <button class="button" onclick="display('sectionmusicdetailspage')"> Get Started </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmusicdetailspage">
+        <div class="bg-container">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="image-music-detals-page" />
+            <div class="text-container-music-details-page">
+                <h1 class="music-home-sleep-heading"> Night Island </h1>
+                <p class="music-home-paragraph"> Ease the mind into a restful night's sleep with these deep, amblent tones. </p>
+                <p class="music-home-paragraph"> 45 MIN SLEEP MUSIC </p>
+                <h1 class="music-nigh-island-heading"> Related </h1>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="image-moon-clouds" />
+                        <h1 class="music-nigh-island-heading"> Moon Clouds </h1>
+                        <p class="music-home-paragraph"> 55 MIN SLEEP MUSIC </p>
+                    </div>
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="image-moon-clouds" />
+                        <h1 class="music-nigh-island-heading"> Sweet Sleep </h1>
+                        <p class="music-home-paragraph"> 60 MIN SLEEP MUSIC </p>
+                    </div>
+                </div>
+                <button class="button" onclick="display('sectionmusichomepage')"> Back </button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
