@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.portfolio-website-work-donr-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+
+}
+
+.Thumps-up-symbol {
+    height: 36px;
+    width: 36px;
+    border-color: #ffffff;
+    margin-left: 50px;
+}
+
+.hr-line {
+    background-color: #ffffff;
+
+}
+
+.work-done-section {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.work-done-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #ffffff;
+}
