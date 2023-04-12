@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.goa-view-bg-container {
+    background-color: white;
+    height: 100vh;
+
+}
+
+.goa-view-card-container {
+    height: 30vh;
+
+
+}
+
+.goa-view-card-heading {
+    font-family: roboto;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: bold;
+    color: #323f4b;
+}
+
+.goa-view-card-paragraph {
+    font-family: roboto;
+    color: #9aa5b1;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.more-places-card-container {}
+
+.more-places-card-container-heading {
+    font-family: roboto;
+    color: #323f4b;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.more-places-image-container {
+    padding: 20px;
+}
+
+.goa-videos-card-container {
+    width: 96px;
+    height: 96px;
+    margin: 4px;
+    border-radius: 8px;
+}
+
+.goa-video-heading {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 15px;
+    color: #323f4b;
+}
